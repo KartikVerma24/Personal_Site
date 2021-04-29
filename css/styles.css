@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+.top-container {
+    background-color: #ffa194;
+    padding-top: 10%;
+    position: relative;
+}
+
+h1 {
+    font-size: 5.625rem; /* 100% font-size = 16px. using % is good because it is dynamic.*/
+    font-weight: 900;
+    margin-top: 0;     /* em is also dynamic. 1em = 16px. Also in case of dynamic sizing font-size gets inherited and get added to the children font-size.*/
+    font-family: 'Sacramento', cursive; /* to get rid of dynamic sizing problems mentioned above for em, we use rem.*/
+    margin-top: 3.125rem ;
+    margin-bottom: 0;
+    color: #583d72;
+    text-shadow: 2px 2px 4px #ff6955;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.second-line {
+    margin-top: 0.313rem;
+    font-size: 2.5rem;
+    color: #583d72;
+    font-weight: lighter;
+}
+
+.profile-para {
+    line-height: 1.8;
+}
+
+h2 {
+    font-family: 'El Messiri', sans-serif;
+    font-size: 2.5rem;
+    color: #583d72;
+}
+
+h3 {
+    font-family: 'El Messiri', sans-serif;
+    color: #583d72;
+    font-size: 1.5rem;
+}
+
+.middle-container {
+    padding-top: 4.375rem;
+    padding-bottom: 3rem;
+    background-color: #fff1e4;
+}
+
+.bottom-container {
+   padding-top: 2.5rem;
+   padding-bottom: 0.2rem;
+   background-color: #ff8474;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 18.1%;
+    left : 67%;
+}
+
+.bottom-cloud {
+    position: absolute;
+    bottom: 41.6%;
+    left: 22%;
+}
+
+.skill-1 {
+    height: 12.5rem;
+    width: 12.5rem;
+    float: left;
+    margin-right: 1.875rem;
+    margin-top: 0.6rem;
+}
+
+.skill-2 {
+    height: 12.5rem;
+    width: 12.5rem;
+    float: right;
+    margin-left: 1.875rem;
+    margin-top: 1.3rem;
+}
+
+.skill-row {
+    margin: 2.813rem auto 2.813rem auto;
+    width: 50%;
+    line-height: 1.8;
+    text-align: left;
+}
+
+.footer-link {
+    color: #583d72;
+    text-decoration: none;
+}
+
+.foot {
+    margin: 0 27px;
+    font-size: 1.2rem;
+}
+
+.foot:hover {
+    color: #ffdbb9;
+}
+
+hr {
+    margin: 0 auto;
+    border-style: dotted none none;
+    border-color:#faa094;
+    border-width: 0.625rem;
+    width: 8%;
+}
+
+.skills {
+    padding-bottom: 3.125rem;
+    padding-top: 3.9rem;
+}
+
+.contact-me {
+    padding-top: 3.125rem;
+    padding-bottom: 2rem;
+}
+
+.profile {
+    padding-bottom: 4.375rem;
+}
+
+.BUTTON_QED {
+    background: #583d72;
+    background-image: -webkit-linear-gradient(top, #583d72,#9f5f80);
+    background-image: -moz-linear-gradient(top, #583d72, #583d72);
+    background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: #fdedde;
+    font-family: 'El Messiri', sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    -webkit-box-shadow: 1px 1px 5px 0 #000000;
+    -moz-box-shadow: 1px 1px 5px 0 #000000;
+    box-shadow: 1px 1px 5px 0 #000000;
+    text-shadow: 1px 1px 5px #000000;
+    border: solid #4f33ed 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .BUTTON_QED:hover {
+    border: solid #583d72 1px;
+    background: #1E62D0;
+    background-image: -webkit-linear-gradient(top,#9f5f80, #583d72);
+    background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    opacity: 0.85;
+ }
